@@ -3,7 +3,7 @@ import { Link as LinkScroll } from "react-scroll";
 import clsx from "clsx";
 
 const NavLink = ({ title }) => (
-  <LinkScroll className="base-bold text-p4 uppercase transition-colors duration-1000 cursor-pointer hover:text-p1 max-lg:mmg-4 max-lg:h5">
+  <LinkScroll className="base-bold text-p4 uppercase transition-colors duration-1000 cursor-pointer hover:text-p1 max-lg:mr-4 max-lg:h5">
     {title}
   </LinkScroll>
 );
@@ -26,7 +26,7 @@ const Header = () => {
         >
           <div className="max-lg:relative max-lg:flex max-lg:flex-col max-lg:min-h-screen max-lg:p-6 max-lg:overflow-hidden sidebar-before max-md:px-4">
             <nav className="max-lg:relative max-lg:z-2 max-lg:my-auto">
-              <ul className="flex max-lg:block max-lg:px-12">
+              <ul className="flex max-lg:block max-lg:px-4">
                 <li className="nav-li">
                   <NavLink title="Features" />
                   <div className="dot" />
